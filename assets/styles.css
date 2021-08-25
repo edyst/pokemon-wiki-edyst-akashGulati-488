@@ -1,0 +1,455 @@
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    
+    border-top: 8px solid gray;
+  }
+  img{
+      height: 30px;
+  }
+  .navbar{
+      display:flex;
+      align-items: flex-end;
+  }
+  nav{
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .firstDiv{
+      position: relative;
+      background:linear-gradient(rgba(0,0,0,0.6),#000000b3),url('animals.jpg');
+      width:100%;
+      height:700px;
+      opacity: 0.8;
+  }
+  .subDiv{
+      position: absolute;
+      left:50px;
+      top:50px;
+      color:#000000b3;
+      color: white;
+      width:100%;
+  }
+  h3{
+      font-size: 33px;
+  }
+  h1{
+      font-size: 90px;  
+  }
+  button{
+      background-color: #4992ca;
+      border:none;
+      height: 40px;
+      width:200px;
+      color:white;
+  }
+  #btn{
+  margin-top: 20px;
+  border: 2px solid whitesmoke;
+  background-color: #0000;
+  }
+  #btn1{
+      height: 50px;
+      width:250px;
+      border: 2px solid #fff;
+      background-color: #0000;
+      margin-left: 250px;
+      margin-top: -40px;
+  }
+  #btnInfo{
+      border-radius: 15px;
+      width:450px;
+      height:40px;
+      background-color:#fff;
+      color:black;
+      margin-top: 20px;
+  }
+  
+  h2{
+      margin-top: 10px;
+      font-size: 45px;
+  }
+  h4{
+      font-size: 30px;
+  }
+  .secondDiv{
+      position: relative;
+      background-color: #4992ca;
+      height:550px;
+  
+  }
+  
+  .secondSubDiv{
+      top: 10px;  
+      text-align: center;
+      color:white;
+      position:absolute;
+      margin-left: 150px;
+      margin-right: 150px;
+  }
+  .grid{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+  .grid2{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap:50px;
+      margin-top: -85px;
+      margin-left: 120px;
+      margin-right: 120px;
+  }
+  
+  .grid3{
+      display: grid;
+      grid-template-columns: 1fr 1fr 3fr;
+      justify-items: center;
+      gap: 50px;
+      margin-left: 120px;
+      margin-right: 120px;
+  }
+  .fourthDiv{
+      position: relative;
+      background-color: #4992ca;
+      height: 450px;
+  }
+  .fourthSubDiv{
+      top: 25px;  
+      color:white;
+      position:absolute;
+      margin-left: 135px;
+      margin-right: 150px;
+  }
+  ul>li{
+  margin-left: 50px;
+  }
+  table,tr,th,td{
+      border:1px solid  #7f8c8d;
+      border-collapse: collapse;
+  }
+  th,td{
+      padding: 10px;
+  }
+  th{
+      text-align: left;
+  }
+  .flex{
+      display: flex;
+  }
+  .fifthSubDiv{
+      margin-left: 160px;
+  }
+  td{
+      color: #7f8c8d;
+  }
+  .pokeBattleSec1{
+      flex-basis:30%;
+  }
+  .pokeBattleSec2{
+      margin-left:15px;   
+      flex-basis: 60%;
+       
+  }
+  .sixthDiv{
+  background-color: #424242;
+  position: relative;
+  height:250px;
+  margin-top: 20px;
+  }
+  .sixthSubDiv{
+      position:absolute;
+      top:30px;
+      left:350px; 
+      color:white;
+  }
+  .pokeCard{
+      width:200px;    
+      border-top: 16px solid #4992ca;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+      background:rgba(0, 0, 0, 0.03);
+  }
+  .singleCard{
+      border: 1px solid rgba(0, 0, 0, 0.125);
+      width:200px;
+      margin-top: -40px;
+      margin-left: 40px;
+      height: 290px;;
+  }
+  .seventhSubDiv{
+      margin-left: 42%;
+  }
+  .eighthDiv{
+      background-color:#4992ca ;
+      height: 910px;  
+      position: relative;
+      top:20px;   
+  }
+  .eighthSubDiv{
+      position: absolute;
+      color: white; 
+  }
+  .card {
+    width: 478px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    margin: 8px;
+    height: 450px;
+  }
+  
+  .card-sub-heading {
+    font-weight:700;
+    height: 45px;
+    color: #3c3333;
+    text-align: left;
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  .card-header {
+    margin-bottom: 0;
+    background:rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    border-top:16px solid #4992ca;
+  }
+  .cards_container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin-top: -25px;   
+  }
+  .card-text{
+    line-height:24px;
+  }
+  .ninthSubDiv{
+      margin-left: 170px;
+      margin-top: 20px;
+  }
+  input{
+      height: 36px;
+      width:350px;
+      padding: 5px;
+  }
+  #btn2{
+      height: 50px;
+      width:250px;
+      border: 2px solid #fff;
+      background-color: transparent;
+      margin-top: -40px;
+      margin-left: 5px;
+  }
+  .tenthSubDiv{
+      left:180px;
+  }
+  .inputData{
+      margin-left:200px;
+  }
+  .eleventhSubDiv{
+      margin: 0px 250px;
+  }
+  .twelthSubDiv{
+      color: white;
+      margin: 0 150px;
+      position: absolute;
+      top: 20px;
+      
+  }
+  .twelthDiv{
+      position: relative;
+      background-color: #4992ca;
+      height: 460px;
+      top: 18px;
+  }
+  .flex1{
+      display: flex;
+      justify-content: space-around;
+      margin-top: -12px;
+  }
+  .thirteenthSubDiv{
+      margin:0 240px;margin-top: 40px;
+  
+  }
+  .flex2{
+      display: flex;
+      justify-content: space-around;
+  }
+  .fifteenthSubDiv{
+      margin:0 150px;
+  }
+  ul>li{
+      list-style-type: none;
+  }
+  ul>li>a{
+      color: #7f8c8d;
+      text-decoration: none;
+  }
+  body{
+      font-family: Avenir-Next,Roboto,sans-serif; 
+      font-size: 16px !important;
+  }
+  
+  @media(max-width:420px){
+      #li1{
+          margin-left:0px !important;
+      }
+    .grid2 {
+      grid-template-columns:1fr;
+      margin:0px;
+    }
+    .weightlossImg{
+        margin-left:20px !important;
+    }
+    .appDwnldImg{
+        margin-left: 20px !important;
+    }
+    .statsHeading{
+        text-align: left !important;
+    }
+    .weightLoss{
+        margin-left:0px ;
+    }
+    .navbar{
+      flex-wrap:wrap;
+    }
+    .grid{
+      grid-template-columns:1fr;
+    }
+    .secondDiv{
+      height:1450px !important;
+      width:100%;
+    }
+    .secondSubDiv{
+      margin:20px
+    }
+    .grid3{
+      grid-template-columns:1fr
+    }
+    .fourthSubDiv{
+      margin:0 20px
+    }
+    .fourthDiv{
+      height: 1200px !important;
+    }
+    .flex{
+      flex-wrap:wrap
+    }
+    .fifthSubDiv{
+      margin:0 20px;
+    }
+    .pokeBattleSec1{
+      margin:0 70px
+    }
+    .pokeBattleSec2{
+      width:200px;
+    }
+    #buyBtn{
+      margin-left:5px !important;
+    }
+    .sixthSubDiv{
+      left: 10px;
+    }
+    #btn1{
+        margin-left:30px;
+    }
+    #wantHeading{
+        text-align: left !important;
+        font-size: 20px;
+    }
+    #enterHeading{
+        text-align: left !important;
+        font-size: 15px;
+    }
+    .sixthDiv{
+      height:200px;
+    }
+    .seventhSubDiv{
+      text-align:center;
+      margin:0 20px;
+    }
+    .eighthDiv{
+      height:3600px;
+    }
+    .ninthSubDiv{
+      margin:0 0px
+    }
+    .cards_container{
+       grid-template-columns: 1fr;
+      margin-left:0
+    }
+    .card{
+      width:300px;
+      height:550px;
+      margin-left:0px;
+      width:270px
+    }
+    .secondGen{
+      margin-left: 0px !important;
+      height:470px;
+    }
+    .fourthGen{
+      margin-left:0px !important;
+      height:670px;
+    }
+    .tenthDiv{
+        height: 300px !important;
+    }
+    .tenthSubDiv{
+        margin-left: 0px !important;
+    }
+    .inputData{
+        margin-left: 10px;
+    }
+    .eleventhSubDiv{
+     margin-left:50px; 
+    }
+    .twelthDiv{
+      height:1600px
+    }
+    .twelthSubDiv{
+      margin-left:50px;
+    }
+    .designerImage{
+        margin-left:40px !important;
+    }
+    .thirteenthSubDiv{
+      margin:40px;
+    }
+    .fifteenthDiv{
+      height:1050px !important;
+    }
+    .flex2{
+      flex-wrap:wrap;
+    }
+    #heading1{
+        font-size: 30px;
+    }
+    #heading3{
+        font-size:20px;
+    }
+    .subDiv{
+        left:5px;
+    }
+    #btnInfo{
+        width: 330px;
+    }
+    .email{
+        width:300px !important;
+    }
+    #btn2{
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    .want{
+        margin-left: 10px;
+        text-align: left !important;
+        font-size: 35px;
+    }
+    .click{
+        margin-left: 30px !important;
+    }
+  }
